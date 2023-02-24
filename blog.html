@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Unstoppable</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.cpm/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="blog-header">
+		<nav>
+			<a href="index.html"><img src="images/logo2.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+			<h1>Our online Programs</h1>
+	</section>
+	<!---------------------BLOG CONTENT------------->
+  	
+	<section class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="images/certificate.png">
+				<h1>Our online Programs</h2>
+				<p>With us you will learn all about Yoga and Meditation and will walk a step forward towards your healthier future.<br> our programs provide with all that you need for a beginners, intermediate and advanced levels.</p>
+				<p>This class is based on the traditional parameters of Vinyasa Yoga which are: <br>steadiness, comfort, breath and unwavering focus on breath.<br> This dynamically flowing practice synchronizes postures with the breath. <br>This is a swift moving, theme-based class with mantra, mudra, pranayama (breath), surya namaskaras (sun salutations),<br> standing asanas, twists, balances, core strengthening postures, backbends and inversions and a looong rest at the end.<br> You will leave feeling Yoga Good!</p>
+				<p>Gentle yoga postures, heavily propped, are offered in this class. The postures are held for some minutes and incorporate props such as pillows,<br> blankets, cushions, straps, chairs and the wall to help you stay in the pose comfortably for a full restoration.<br> Expect breath awareness, deep openings and guided visualizations that will bring you to full equilibrium.<br>
+This class is recommended for all levels and is a particularly good class for those with stress or anxiety,<br> those in transition, or for those who just need a break from moving too quickly.<br> This is also a great class for students who are recovering from injuries.<br> Please let your teacher know if you have injuries so that the teacher can adapt the practice<br> to your needs.</p>
+			    <div class="comment-box">
+					<h3>Leave a comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter Name">
+						<input type="email" placeholder="Enter Email">
+						<textarea rows="5" placeholder="Your comment"></textarea>
+						<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</div>
+			
+			
+			
+			
+			
+			
+			</div>
+			<div class="blog-right">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Student</span>
+				</div>
+				<div>
+					<span>yogi</span>
+				</div>
+				<div>
+					<span>Zen Master</span>
+				</div>
+				<div>
+					<span>Manager</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!------------------footer--------------->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>we have just started with our unstoppable family and would love you to be a part of it.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart"></i> by Sai Agarwal</p>
+	</section>
+<!--------------JAVASCRIPT for toggle----------------------->
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right= "0";
+	}
+	function hideMenu(){
+		navLinks.style.right= "-200px";
+	}
+</script>
+</body>
+</html>
